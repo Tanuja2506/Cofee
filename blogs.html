@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="shortcut icon" href="">
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap" rel="stylesheet">
+</head>
+<style>
+*{
+    margin:0px;
+    padding:0px;
+    font-family:poppins;
+    box-sizing: border-box;
+}
+a{
+   text-decoration:none;   
+}
+ul{
+    list-style:none;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/1320594.jpg");
+    background-repeat:no-repeat;
+     background-size:cover;
+     height:100%; 
+    
+    font-family:poppins;
+}
+#blog{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    padding:40px;
+    border-bottom:1px solid rgba(0,0,0,0.5);
+}
+.blog-heading{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+}
+.blog-heading span{
+    color:#f33f3c;
+}
+.blog-heading h3{
+    font-size:2.4rem;
+    color:#13c5d2;
+    font-weight: 600;
+}
+.blog-heading h3:hover{
+    color: rgb(221, 96, 12);
+}
+.blog-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20px 0px;
+    flex-wrap:wrap; 
+}
+.blog-box{
+    width:350px;
+    background-color: #ffffff;
+    border:1px solid #ececec;
+    margin:20px;
+}
+.blog-img{
+    width:100%;
+    height:auto;   
+}
+.blog-img img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position:center;
+}
+.blog-text{
+    padding:30px;
+    display:flex;
+    flex-direction:column;   
+}
+.blog-text span{
+   color:#f33c3c;
+   font-size:0.9rem;
+
+}
+.blog-text .blog-title{
+    font-size:1.3rem;
+    font-weight:500;
+    color:#131317; 
+}
+.blog-text .blog-title:hover{
+    color:#f33c3c;
+    transition:all ease 0.3s;
+}
+.blog-text p{
+    color:#0e0d0d;
+    font-size:0.9rem;
+    display:-webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin:20px 0px;
+
+}
+.text {
+    font-size: 24px;
+}
+
+ .readMoreBtn {
+    padding: 15px 60px;
+    background-color: rgb(210, 216, 224);
+    color: rgb(38, 38, 44);
+    border: 1px;
+    font-size: 20px;
+    
+}
+
+.hide{
+    display:none;
+}
+
+
+.bt1{
+padding:10px 20px;
+border-radius: 12px;
+border: 1px solid #259fad;
+background-color: #6d6868;
+color: #FFFFFF;
+font-size: 12px;
+font-weight: bold;
+/* padding: 12px 45px;  */
+letter-spacing: 1px;
+text-transform: uppercase;
+transition: transform 80ms ease-in;
+position: fixed;
+bottom:-4px;
+right:10px;
+justify-content: flex-end;
+display: flex;
+} 
+
+
+</style>
+
+<body>
+
+    <section id="blog">
+        <div class="blog-heading">
+            <span>My recent Posts</span>
+            <h3>My Blog</h3>
+        </div>
+
+    <div class="blog-container">
+    <div class="blog-box">
+        <div class="blog-img">
+          <img src=" https://cdn.pixabay.com/photo/2017/05/12/08/29/coffee-2306471__480.jpg" alt="Blog">
+        </div> 
+        <div class="blog-text">
+            <span>1 May 2023/ cofee</span>
+            <a href="#"  class="blog-title">Always make time for the things you love, like drinking coffee.</a>
+            <p class="text"> If it wasn’t for coffee, I’d have no discernible personality at all.Like most of the world’s population I’m into coffee, but in a properly big and important way. My perfect weekend would start with a pint of coffee.
+            </p> 
+        <p class="moreText"id="hide" >
+            I like instant gratification. It’s like instant Coffee, only it won’t 
+            keep you up all  </p>
+             <button  class="readMoreBtn"  >Read More</button>
+     </div>
+    </div>
+
+ 
+
+         <div class="blog-box">    
+        <div class="blog-img">
+          <img src=" https://media.istockphoto.com/id/1303583671/photo/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=fAh3m6Hqxz-qeA45Tj2jGARhRiGFhgm80dLVthnvlD8=" alt="Blog">
+        </div>
+        <div class="blog-text">
+            <span>2 May 2023/ cofee</span>
+            <a href="#"  class="blog-title">Coffee is a beverage that puts one to sleep when not drank.</a>
+            <p> I like instant gratification. It’s like instant Coffee, only it won’t keep you up all night.</p>
+            <p class="moreText"id="hide" >
+                I like instant gratification. It’s like instant Coffee, only it won’t 
+                keep you up all  </p>
+            <button class="readMoreBtn" >Read More</button>
+        </div>
+    </div>
+
+    <div class="blog-box">
+        <div class="blog-img">
+          <img src="https://thumbs.dreamstime.com/b/cup-coffee-morning-mountain-background-sunrise-52364233.jpg"  height="500" alt="Blog">
+        </div>
+        <div class="blog-text">
+            <span>3 May 2023/ cofee</span>
+            <a href="#"  class="blog-title"> Caffeine and sugar—the two basic food groups.</a>
+            <p> I’m going to start measuring the complexity of coding tasks in coffee cups. 'This was a five-espresso algorithm.</p>
+            <p class="moreText"id="hide" >
+                I like instant gratification. It’s like instant Coffee, only it won’t 
+                keep you up all  </p>
+            <button class="readMoreBtn" >Read More</button>
+        </div>
+    </div>
+    
+    <div class="blog-box">
+        <div class="blog-img">
+          <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVKBl8sKXSHLmRmRFCmq37L5nHUtQ00BY1ngDqhWZaufGaqoxdW1cQD8wr2uBGEC9Fxn0&usqp=CAU" alt="Blog">
+        </div>
+        <div class="blog-text">
+            <span>4 May 2023/ cofee</span>
+            <a href="#"  class="blog-title"> Coffee is a language in itself.</a>
+            <p>My dream is to have a house on the beach, even just a little shack somewhere so I can wake up, have coffee, look at dolphins, be quiet and breathe the air.”</p>
+            <p class="moreText" id="hide" >
+                I like instant gratification. It’s like instant Coffee, only it won’t 
+                keep you up all  </p>
+            <button class="readMoreBtn">Read More</button>
+        </div>
+    </div>
+
+
+<div class="blog-box">
+    <div class="blog-img">
+      <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTodbV8Zf_TDE0N17XGjjUp8RDNE163V9Z6Lw&usqp=CAU" alt="Blog">
+    </div>
+    <div class="blog-text">
+        <span>5 May 2023/ cofee</span>
+        <a href="#"  class="blog-title"><mark>Coffee </mark> the most important meal of the day.</a>
+        <p>I like coffee because it gives me the illusion that I might be awake.he coffee is prepared in such a way that it makes those who drink it witty. Att least there is not a single soul who, on quitting the house, does not believe himself four times wittier that when he entered it.</p>
+        <p class="moreText" id="hide">
+            I like instant gratification. It’s like instant Coffee, only it won’t 
+            keep you up all  </p>
+        <button class="readMoreBtn" >Read More</button>
+    </div>
+</div>
+
+
+<div class="blog-box">
+    <div class="blog-img">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy2oPRNPce-64idX0skGng_WldkzMVQELvsg&usqp=CAU" alt="Blog">
+    </div>
+    <div class="blog-text">
+        <span>5 May 2023/ cofee</span>
+        <a href="#"  class="blog-title"> Caffeine isn’t a drug; it’s a vitamin.</a>
+        <p> Coffee connects us in so many ways–to each other, to our senses, and to the earth that supports the coffee trees.</p>
+        <p class="moreText " id="hide"  >
+            I like instant gratification. It’s like instant Coffee, only it won’t 
+            keep you up all  </p>
+        <button class="readMoreBtn" >Read More</button>
+    </div>
+</div>
+</div>
+ <div >
+    <button class="bt1" onclick="history.back()">Go Back</button>
+</div> 
+</section> 
+
+
+
+    
+    <script>
+    const readMoreBtn = document.querySelectorAll(".readMoreBtn");
+
+readMoreBtn.forEach(btn => {
+    btn.addEventListener("click", function() {
+        const moreText = this.parentElement.querySelector(".moreText");
+        moreText.classList.toggle("hide");
+        if (moreText.classList.contains("hide")) {
+            this.textContent = "Read More";
+        } else {
+            this.textContent = "Read Less";
+        }
+    });
+});
+
+   
+</script>
+
+
+
+</body>
+</html>

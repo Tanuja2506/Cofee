@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+     .container {
+                    /* position: relative; */
+          left:50px; 
+          align-items: center;
+          float: left;
+          margin:auto;
+         padding:10px;
+                    
+          }
+        h2{
+            font-family: cursive;
+            color:rgb(18, 224, 220);
+            text-align: center;
+            font-weight: bold;
+            font-size: 50px;
+            text-decoration:underline;
+        }
+        h2:hover{
+            color:blueviolet;
+        }
+
+         .image {
+          padding: 40px;
+         margin: 5px;
+         border: 1px solid #ccc;
+         float: left;
+        text-align:center;
+         padding-left:50px;      
+                }
+
+
+        body {
+            background: var(--bg);
+            background-image: url("https://img.freepik.com/free-photo/coffee-beans-dark-background-top-view-coffee-concept_1220-6299.jpg"  );
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+
+          .middle {
+         transition: .5s ease;         
+         top: 3%;
+        left: 5%;
+        text-align: center;
+        }
+
+               
+                .text {
+                    align-items: center;
+                    background-color: #329fd1;
+                    color: white;
+                    font-size: 10px;
+                    padding: 16px;
+                }
+                .search-bar {
+            margin-top: 20px;
+            text-align: right;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 10px;
+            width: 300px;
+        }
+
+        .search-bar input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #329fd1;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h2>Menu Of Cofee Shop</h2>
+    
+    <div class="search-bar">
+        <form id="searchForm">
+            <input type="text" name="search" placeholder="Search for coffee...">
+            <input type="submit" value="Search">
+        </form>
+    </div>
+
+    <div class="container">
+        <div class="image">
+            <img src="https://images.immediate.co.uk/production/volatile/sites/2/2021/08/coldbrew-iced-latte-with-my-recipe-photo-by-@ellamiller_photo-f1e3d9e.jpg?quality=90&resize=556,505" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Iced Cofee</h1>
+                    <button>$20.4</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/types-of-coffee-latte-1610641682.jpg?crop=0.986xw:0.658xh;0.00170xw,0.227xh&resize=980:*" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Latte</h1>
+                    <button>$30</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/types-of-coffee-drinks-irish-1610643650.jpg?crop=0.668xw:1.00xh;0.197xw,0&resize=980:*" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Irish Coffee</h1>
+                    <button>$12.5</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/types-of-coffee-iced-1610642172.jpg?resize=980:*" alt="Avatar" height="300px" width="300px">
+            <div class="middle">
+                <div class="text">
+                    <h1>Cold Brew</h1>
+                    <button>$15.2</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://cdn-food.tribune.com.pk/gallery/QeqbFgHqTztaXxJ67tIJG2ZjkRgYmZeLvgaESN0T.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Cappucino</h1>
+                    <button>$25.00</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Espresso_Americano.jpeg/375px-Espresso_Americano.jpeg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Americano</h1>
+                    <button>$10.20</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg/330px-Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Expresso</h1>
+                    <button>$18.90</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://www.spoonfulofflavor.com/wp-content/uploads/2021/11/mocha-latte-recipe.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Mocha</h1>
+                    <button>$19.00</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2022/04/Iced-Caramel-Macchiato-f4a10f9.jpg?quality=90&resize=556,505" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Macchiato</h1>
+                    <button>$23.40</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="image">
+            <img src="https://www.spoonfulofflavor.com/wp-content/uploads/2021/11/mocha-latte-recipe.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Maccino</h1>
+                    <button>$19.00</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://www.storypick.com/wp-content/uploads/2016/03/Cafefrappe.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Frappe</h1>
+                    <button>$13.00</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://www.storypick.com/wp-content/uploads/2016/03/CAPPUCCINO-COFFEE.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Cappuccino</h1>
+                    <button>$19.00</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://www.storypick.com/wp-content/uploads/2016/03/turkish-coffee.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Turkish</h1>
+                    <button>$25.00</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="image">
+            <img src="https://www.storypick.com/wp-content/uploads/2016/03/1519e954ae6bd629544356cae3e51766_XL.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Vienna Mocha</h1>
+                    <button>$20.00</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="image">
+            <img src="https://www.storypick.com/wp-content/uploads/2016/03/o.jpg" alt="Avatar" height="300px" width="300px">
+
+            <div class="middle">
+                <div class="text">
+                    <h1>Borgia</h1>
+                    <button>$50.00</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // JavaScript code for search functionality
+        document.getElementById('searchForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            
+            var searchText = document.querySelector('input[name="search"]').value.toLowerCase();
+            var images = document.getElementsByClassName('image');
+            
+            for (var i = 0; i < images.length; i++) {
+                var image = images[i];
+                var coffeeName = image.querySelector('.text h1').textContent.toLowerCase();
+                
+                if (coffeeName.includes(searchText)) {
+                    image.style.display = 'block'; // Show matching images
+                } else {
+                    image.style.display = 'none'; // Hide non-matching images
+                }
+            }
+        });
+    </script>
+</body>
+</html>

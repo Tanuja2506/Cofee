@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee Shop Table Booking</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<style>
+    body {
+background-image: url("https://cdn.archilovers.com/projects/a99280d2-1ea9-4809-a049-cabfa1125a63.jpg"); 
+background-repeat: no-repeat;
+background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+    color:blue ;
+  text-align: center;
+  
+}
+ h1:hover{
+    color:rgb(60, 211, 43);
+
+}
+
+form {
+    padding-top: 40px;
+    align-items: center;
+    padding-left: 40px;
+    background-color: aquamarine;
+    height: 400px;
+    width:600px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+    border: 1px;
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+</style>
+<body>
+  <h1>Coffee Shop Table Booking</h1>
+
+  <form id="bookingForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" required>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" required>
+
+    <input type="submit" value="Book Table">
+  </form>
+<script>
+    document.getElementById('bookingForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent form submission
+
+  // Get form values
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var date = document.getElementById('date').value;
+  var time = document.getElementById('time').value;
+
+  // Process the form data (you can customize this according to your needs)
+  console.log('Name:', name);
+  console.log('Email:', email);
+  console.log('Date:', date);
+  console.log('Time:', time);
+
+  // Reset the form
+  document.getElementById('bookingForm').reset();
+});
+
+</script>
+  
+</body>
+
+</html>

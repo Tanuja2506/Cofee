@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Coffee Shop Gallery</title>
+  
+</head>
+<style>
+
+body{
+
+  width:100%;
+  height:auto;
+  text-align:center;
+            
+  background: -webkit-linear-gradient(to right,rgb(137, 165, 178), rgb(212, 223, 153));
+	        background: linear-gradient(to right, #c7a5a5, #a0ccd0);
+} 
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+h1{
+
+  font-size: 70px; /* make our h1 tag larger */
+        font-family: sans-serif;
+  background: linear-gradient(to right, rgba(33, 164, 200, 0) 0%, rgba(80, 189, 33, 0.5) 20%, rgba(203, 186, 186, 0) 61%), linear-gradient(rgb(220, 8, 26) 52%, rgb(237, 244, 246) 60%, rgb(14, 80, 64) 61%);
+  background-clip: text; /*it defines how far the background should extend within an element, here we set it to text */
+        -webkit-background-clip: text; /*for browsers compatibility */
+        -webkit-text-fill-color: transparent; /* specifies the fill color of text characters. We use transparent to use the background as our text fill  */
+        animation: wave 2000ms ease alternate infinite;
+        transition: all 0.4s ease;
+      }
+      @keyframes wave {
+        0% {
+          background-position: 0 0;
+        }
+        100% {
+          background-position: 50vw 10px;
+        }
+      }
+
+
+.image {
+  text-align: center;
+}
+
+.image img {
+  width: 80%;
+  height: 80%;
+}
+
+ .image-name {
+  
+  display: block;
+  margin-top: 5px;
+  font-size: 30px;
+  font-weight: bold;
+} 
+
+
+</style>
+<body>
+  
+   
+</header>
+  <h1>Coffee Shop Gallery</h1>
+  <div id="gallery">
+    <div class="image">
+      <img src="https://beautifuleatsandthings.com/wp-content/uploads/2021/06/torani-3-742x1024.jpg" alt="Coffee 1">
+      <span class="image-name"  >Mocha</span>
+    </div>
+    <div class="image">
+      <img src="https://bakingmischief.com/wp-content/uploads/2019/05/iced-mocha-image-square.jpg" alt="Coffee 2">
+      <span class="image-name">Expresso</span>
+    </div>
+    <div class="image">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS76F_2hi-XBlCsj1HHYH6TfqVtpMZqKOkCOQ&usqp=CAU" alt="Coffee 3">
+      <span class="image-name">CarmelMacch</span>
+    </div>
+    <div class="image">
+      <img src="https://static.toiimg.com/thumb/71424715.cms?imgsize=1544928&width=800&height=800" alt="Coffee 3">
+      <span class="image-name">Carmel</span>
+    </div>
+    <div class="image">
+      <img src="https://www.storypick.com/wp-content/uploads/2016/03/CAPPUCCINO-COFFEE.jpg" alt="Coffee 3">
+      <span class="image-name">Cappuccino</span>
+    </div>
+    <div class="image">
+      <img src="https://www.storypick.com/wp-content/uploads/2016/03/Old-Fashioned-Irish-Coffee.jpg" alt="Coffee 3">
+      <span class="image-name">Irish</span>
+    </div>
+    <div class="image">
+      <img src="https://www.storypick.com/wp-content/uploads/2016/03/Cafefrappe.jpg" alt="Coffee 3">
+      <span class="image-name">Frappe</span>
+    </div>
+    <div class="image">
+      <img src="https://img.freepik.com/free-photo/cold-coffee-drink_144627-18375.jpg?w=360&t=st=1686637540~exp=1686638140~hmac=c99a65a9d738532ae94bd69103756f6c4e770fa2724054e2a79e20f2060440b3" alt="Coffee 3">
+      <span class="image-name">Ice Latte</span>
+    </div>
+    <div class="image">
+      <img src="https://www.storypick.com/wp-content/uploads/2016/03/CAPPUCCINO-COFFEE.jpg" alt="Coffee 3">
+      <span class="image-name"> Cappuccino</span>
+     </div> 
+     
+    <div class="image">
+      <img src="https://www.storypick.com/wp-content/uploads/2016/03/turkish-coffee.jpg" alt="Coffee 3">
+      <span class="image-name">Turkish</span>
+    </div>
+    <div class="image">
+      <img src="https://www.storypick.com/wp-content/uploads/2016/03/1519e954ae6bd629544356cae3e51766_XL.jpg" alt="Coffee 3">
+      <span class="image-name">Vienna Mocha</span>
+    </div>
+    <div class="image">
+      <img src="https://www.storypick.com/wp-content/uploads/2016/03/o.jpg" alt="Coffee 3">
+      <span class="image-name"> Borgia</span>
+    </div>
+    
+    <!-- Add more image elements here -->
+  </div>
+ 
+  
+</body>
+</html>
